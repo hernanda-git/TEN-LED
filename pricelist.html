@@ -28,7 +28,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=3wrXig"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=3wrXig" type="text/css">
 
-  
+
     <style>
       .pricelist-datatables {
           padding-top: 1rem;
@@ -38,29 +38,34 @@
     </style>
 
 <style>
-  .whatsapp-sticky {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000; /* Ensures it stays on top of other elements */
-  }
-  .whatsapp-sticky a {
-    display: block;
-    transition: transform 0.3s ease; /* Optional: Adds a hover effect */
-  }
-  .whatsapp-sticky a:hover {
-    transform: scale(1.1); /* Optional: Slight zoom on hover */
-  }
-</style>
+    .social-sticky {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000; /* Ensures it stays on top of other elements */
+      display: flex; /* Aligns icons horizontally */
+      gap: 10px; /* Space between icons */
+    }
+    .social-icon {
+      display: block;
+      transition: transform 0.3s ease; /* Smooth hover effect */
+    }
+    .social-icon:hover {
+      transform: scale(1.1); /* Slight zoom on hover */
+    }
+  </style>
+
 </head>
 <body>
 
-  <!-- Sticky WhatsApp Icon -->
-  <div class="whatsapp-sticky">
-    <a href="https://wa.me/6282185991038" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 50px; height: 50px;">
-    </a>
-  </div>
+    <div class="social-sticky">
+        <a href="https://www.instagram.com/ten_led/" target="_blank" class="social-icon instagram">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 50px; height: 50px;">
+        </a>
+        <a href="https://wa.me/081280031995" target="_blank" class="social-icon whatsapp">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 50px; height: 50px;">
+        </a>
+      </div>
   
   <section data-bs-version="5.1" class="menu menu3 cid-uGCZe5y1CN" once="menu" id="menu03-3o">
 	
